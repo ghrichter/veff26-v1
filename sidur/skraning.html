@@ -34,14 +34,14 @@
           <div>
             <label for="event">Hvaða ferð viljið þið skrá ykkur í?</label>
             <select id="event">
-                <option>Jöklaklifur</option>                
-                <option>Róleg gönguferð á Suðurlandi</option>
-                <option>Gullnihringurinn</option>
-                <option>Silfurkassinn</option>
-                <option>Bronsþríhyrningurinn</option>
-                <option>Köfunarferð</option>
-                <option>Norðurljósaferð</option>
-                <option>Reykjavíkurrölt</option> 
+              <option>Jöklaklifur</option>
+              <option>Róleg gönguferð á Suðurlandi</option>
+              <option>Gullnihringurinn</option>
+              <option>Silfurkassinn</option>
+              <option>Bronsþríhyrningurinn</option>
+              <option>Köfunarferð</option>
+              <option>Norðurljósaferð</option>
+              <option>Reykjavíkurrölt</option>
             </select>
           </div>
         </fieldset>
@@ -49,44 +49,61 @@
           <legend>Hópur</legend>
           <div>
             <label for="size">Fjöldi</label>
-            <input id="size" type="number" min="1" placeholder="Hversu margir í hópnum?"required>
+            <input
+              id="size"
+              type="number"
+              min="1"
+              placeholder="Hversu margir í hópnum?"
+              required
+            />
           </div>
           <div>
             <label for="experience">Upplýsingar um hóp</label>
-            <input id="experience" type="text" placeholder="Hver er reynsla hópsins?" required>
+            <input
+              id="experience"
+              type="text"
+              placeholder="Hver er reynsla hópsins?"
+              required
+            />
           </div>
           <div>
             <label for="email">Netfang tengiliðar</label>
-            <input id="email" type="email" placeholder="your@email.org" required>
+            <input
+              id="email"
+              type="email"
+              placeholder="your@email.org"
+              required
+            />
           </div>
           <div>
             <label for="phone">Símanúmer</label>
-            <input id="phone" type="tel" placeholder="123-4567" required>
+            <input id="phone" type="tel" placeholder="123-4567" required />
           </div>
         </fieldset>
         <fieldset>
-            <legend>Dagsetning og tími</legend>
-            <div>
-                <label for="whendate">Hvenær viljið þið koma?</label>
-                <input id="whendate" type="date" required>
-            </div>
-            <div>
-                <label for="whentime">Hvaða tíma?</label>
-                <select id="whentime" required>
-                    <option hidden selected disabled></option>
-                    <option>Fyrir hádegi</option>
-                    <option>Eftir hádegi</option>
-                    <option>Kvöld</option>
-                </select>
-            </div>
+          <legend>Dagsetning og tími</legend>
+          <div>
+            <label for="whendate">Hvenær viljið þið koma?</label>
+            <input id="whendate" type="date" required />
+          </div>
+          <div>
+            <label for="whentime">Hvaða tíma?</label>
+            <select id="whentime" required>
+              <option hidden selected disabled></option>
+              <option>Fyrir hádegi</option>
+              <option>Eftir hádegi</option>
+              <option>Kvöld</option>
+            </select>
+          </div>
         </fieldset>
         <fieldset>
-            <legend>Bóka</legend>
-            <div>
-                <label for="terms">
-                    Ég samþykki skilmála<input type="checkbox" required></label>
-            </div>
-            <button>Panta og greiða</button>
+          <legend>Bóka</legend>
+          <div>
+            <label for="terms">
+              Ég samþykki skilmála<input type="checkbox" required
+            /></label>
+          </div>
+          <button>Panta og greiða</button>
         </fieldset>
       </form>
     </main>
