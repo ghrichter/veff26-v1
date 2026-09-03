@@ -90,10 +90,11 @@
           <div>
             <label for="whentime">Hvaða tíma?</label>
             <select id="whentime" required>
-              <option hidden selected disabled></option>
-              <option>Fyrir hádegi</option>
-              <option>Eftir hádegi</option>
-              <option>Kvöld</option>
+              <option value="" hidden selected disabled>Vinsamlegast veldu tíma</option>
+              <!---->
+              <option value="early">Fyrir hádegi</option>
+              <option value="afternoon">Eftir hádegi</option>
+              <option value="late">Kvöld</option>
             </select>
           </div>
         </fieldset>
